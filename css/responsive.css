@@ -1,0 +1,105 @@
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+	
+}
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	
+	/* PRIMARY STYLES */
+	
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 3em; }
+	h2{ font-size: 2em; }
+	h3{ font-size: 1.8em; }
+
+
+	
+	/* COMMONS FOR PAGE DESIGN */
+
+	.section{ padding: 50px 0 0px; }
+
+	.section .heading{ margin-bottom: 30px; }
+
+	
+	/* INTRO SECTION */
+	
+	.intro {
+		display: block;
+		margin-left: auto;
+ 		margin-right: auto;
+  		width: 80%;
+	}
+	.intro .profile-img{ max-width: 350px; border-radius: 5px; overflow: hidden; }
+	
+	
+	/* ---------------------------------
+	7. EDUCATION SECTION
+	--------------------------------- */
+
+	.education-wrapper{ position: relative; overflow: hidden; text-align: center; }
+
+	.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: 50%;
+		margin-left: -1px; width: 2px; background: #ccc; }
+
+	.education-wrapper .education{ width: 100%; margin-top: 30px; }
+	
+	.education-wrapper .education.left,
+	.education-wrapper .education.right{ float: none; padding: 0px; text-align: center; }
+
+	.education-wrapper:after,
+	.education-wrapper .education:after{ display: none; }
+	
+}
+
+/* Screens Resolution : 575px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 575px) {
+	
+	/*  PRIMARY STYLES */
+
+
+	body{ font-size: 14px;  }
+	
+	.intro .profile-img{ max-width: 250px; border-radius: 50%; overflow: hidden;
+		
+		display: block;
+		margin-left: auto;
+ 		margin-right: auto;
+  		width: 80%; }
+	
+}
+
+/* Screens Resolution : 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+
+}
+
+/* Screens Resolution : 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+	
+	
+
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+
+	
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 260px) {
+
+	
+}
